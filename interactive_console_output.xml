@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1 (Python 3.10.10 on win32)" generated="20230917 01:06:28.161" rpa="false" schemaversion="4">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\USER\.vscode\extensions\robocorp.robotframework-lsp-1.11.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Click checkout">
+<msg timestamp="20230917 01:06:28.758" level="FAIL">No keyword with name 'Click checkout' found.</msg>
+<status status="FAIL" starttime="20230917 01:06:28.756" endtime="20230917 01:06:28.758"/>
+</kw>
+<kw name="Input Information">
+<arg>admin</arg>
+<arg>124</arg>
+<arg>123456789</arg>
+<status status="NOT RUN" starttime="20230917 01:06:28.760" endtime="20230917 01:06:28.760"/>
+</kw>
+<kw name="Wait Until Location Is">
+<arg>https://www.saucedemo.com/checkout-step-two.html</arg>
+<status status="NOT RUN" starttime="20230917 01:06:28.762" endtime="20230917 01:06:28.762"/>
+</kw>
+<kw name="Click Button">
+<arg>id=finish</arg>
+<status status="NOT RUN" starttime="20230917 01:06:28.764" endtime="20230917 01:06:28.764"/>
+</kw>
+<kw name="Wait Until Location Is">
+<arg>https://www.saucedemo.com/checkout-complete.html</arg>
+<status status="NOT RUN" starttime="20230917 01:06:28.767" endtime="20230917 01:06:28.767"/>
+</kw>
+<status status="PASS" starttime="20230917 01:06:28.188" endtime="20230917 01:06:29.662"/>
+</kw>
+<status status="PASS" starttime="20230917 01:06:28.188" endtime="20230917 01:06:29.662"/>
+</test>
+<status status="PASS" starttime="20230917 01:06:28.163" endtime="20230917 01:06:29.664"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
